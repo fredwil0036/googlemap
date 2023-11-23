@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PrivacyPolicy"
+    android:background="@color/frameback"
+    >
+
+    <ImageView
+        android:id="@+id/backb"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/baseline_arrow_back_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="24dp"
+        android:fontFamily="@font/d_dinbold"
+        android:text="Privacy Policy for WildTech Resort Application"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="24dp"
+        android:scrollbars="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Last Updated: November 22, 2023"
+                android:textSize="15dp"
+                android:fontFamily="@font/d_dinbold"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Introduction"
+                android:textSize="15dp"
+                android:fontFamily="@font/d_dinbold"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/policy1"
+                android:textSize="11dp"
+                android:fontFamily="@font/d_din"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Information We Collect"
+                android:textSize="15dp"
+                android:fontFamily="@font/d_dinbold"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/policy2"
+                android:textSize="11dp"
+                android:fontFamily="@font/d_din"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. How We Use Ypur Information"
+                android:textSize="15dp"
+                android:fontFamily="@font/d_dinbold"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/policy3"
+                android:textSize="11dp"
+                android:fontFamily="@font/d_din"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Sharing of Information"
+                android:textSize="15dp"
+                android:fontFamily="@font/d_dinbold"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/policy4"
+                android:textSize="11dp"
+                android:fontFamily="@font/d_din"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. Secruity Measure"
+                android:textSize="15dp"
+                android:fontFamily="@font/d_dinbold"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/policy5"
+                android:textSize="11dp"
+                android:fontFamily="@font/d_din"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6. Your Choices"
+                android:textSize="15dp"
+                android:fontFamily="@font/d_dinbold"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/policy6"
+                android:textSize="11dp"
+                android:fontFamily="@font/d_din"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7. Children's Policy"
+                android:textSize="15dp"
+                android:fontFamily="@font/d_dinbold"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/policy7"
+                android:textSize="11dp"
+                android:fontFamily="@font/d_din"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="8. Changes to this Privacy Policy"
+                android:textSize="15dp"
+                android:fontFamily="@font/d_dinbold"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/policy8"
+                android:textSize="11dp"
+                android:fontFamily="@font/d_din"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="9. Contack Us"
+                android:textSize="15dp"
+                android:fontFamily="@font/d_dinbold"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/policy9"
+                android:textSize="11dp"
+                android:fontFamily="@font/d_din"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                />
+
+
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

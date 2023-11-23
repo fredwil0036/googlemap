@@ -45,18 +45,13 @@ public class MapsFragment extends Fragment {
         supportMapFragment.getMapAsync(new OnMapReadyCallback() {
             @Override
             public void onMapReady( GoogleMap googleMap) {
-                googleMap.setOnMapClickListener(new GoogleMap.OnMapClickListener() {
-                    @Override
-                    public void onMapClick( LatLng latLng) {
-                        MarkerOptions markerOptions=new MarkerOptions();
-                        markerOptions.position(latLng);
-                        markerOptions.title(latLng.latitude + ":"+ latLng.longitude);
-                        googleMap.clear();
+                googleMap=googleMap;
+                LatLng latLng=new LatLng(16.049054, 120.680790);
+                MarkerOptions markerOptions=new MarkerOptions();
+                markerOptions.title("Venue Location");
+                markerOptions.position(latLng);
+                googleMap.addMarker(markerOptions);
 
-                        googleMap.animateCamera(CameraUpdateFactory.newLatLngZoom(latLng,10));
-                    googleMap.addMarker(markerOptions);
-                    }
-                });
             }
         });
 

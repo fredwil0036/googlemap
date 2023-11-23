@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FaQ"
+    android:background="@color/frameback"
+    >
+
+    <ImageView
+        android:id="@+id/backb"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/baseline_arrow_back_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="24dp"
+        android:fontFamily="@font/d_dinbold"
+        android:text="Frequently Asked Question"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="24dp"
+        android:scrollbars="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. What information do I need tp provide during the booking processs?"
+                android:textSize="15dp"
+                android:fontFamily="@font/d_dinbold"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ans1"
+                android:textSize="11dp"
+                android:fontFamily="@font/d_din"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Can i modify or cancel my reservation throurh the app?"
+                android:textSize="15dp"
+                android:fontFamily="@font/d_dinbold"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ans2"
+                android:textSize="11dp"
+                android:fontFamily="@font/d_din"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. What payment Methods are accepted for reservation? "
+                android:textSize="15dp"
+                android:fontFamily="@font/d_dinbold"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ans3"
+                android:textSize="11dp"
+                android:fontFamily="@font/d_din"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. How do I review and manage my booking history? "
+                android:textSize="15dp"
+                android:fontFamily="@font/d_dinbold"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ans4"
+                android:textSize="11dp"
+                android:fontFamily="@font/d_din"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. Is my personal and payment information secure on the app?"
+                android:textSize="15dp"
+                android:fontFamily="@font/d_dinbold"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ans5"
+                android:textSize="11dp"
+                android:fontFamily="@font/d_din"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6. what should I do if I encounter technical issues with the app? "
+                android:textSize="15dp"
+                android:fontFamily="@font/d_dinbold"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ans6"
+                android:textSize="11dp"
+                android:fontFamily="@font/d_din"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7. Are there any loyalty programs or discounts available through the app? "
+                android:textSize="15dp"
+                android:fontFamily="@font/d_dinbold"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ans7"
+                android:textSize="11dp"
+                android:fontFamily="@font/d_din"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="8. How can I provide feedback or report an issue with the app? "
+                android:textSize="15dp"
+                android:fontFamily="@font/d_dinbold"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ans8"
+                android:textSize="11dp"
+                android:fontFamily="@font/d_din"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                />
+
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

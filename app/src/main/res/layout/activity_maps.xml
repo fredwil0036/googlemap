@@ -97,6 +97,7 @@
         </LinearLayout>
 
         <Button
+            android:id="@+id/getdirection"
             android:layout_width="170dp"
             android:layout_height="60dp"
             android:layout_marginLeft="120dp"
